@@ -1,12 +1,12 @@
 # Fraud Detection and Transaction Risk Analysis
 
 ## Overview
-This project implements a **fraud detection and transaction risk analysis pipeline** for a digital wallet system. The pipeline extracts data from CSV, processes it in MongoDB, transfers it to PostgreSQL using Airbyte, transforms it with dbt, and orchestrates the workflow with Kestra.
+This project implements a **fraud detection and transaction risk analysis pipeline** for a digital wallet system. The pipeline extracts data from CSV, loads it into MongoDB, transfers it to PostgreSQL using Airbyte, transforms it with dbt, and orchestrates the workflow with Kestra.
 
 ## Data Pipeline Architecture
-Below is the architecture of the ETL pipeline:
+Below is the architecture of the ELT pipeline:
 
-![ETL Pipeline](convert_to_json_connect_mongo.ipynb)
+![ELT Pipeline](Fraud-Detection-and-Transaction-Risk-Analysis.jpg)
 
 ## Technologies Used
 - **Python & Pandas**: Data processing and transformation.
@@ -14,7 +14,7 @@ Below is the architecture of the ETL pipeline:
 - **Airbyte**: Extract and load data from MongoDB to PostgreSQL.
 - **PostgreSQL**: Staging area and Data Warehouse.
 - **dbt**: Data modeling and transformation.
-- **Kestra**: Orchestration of ETL workflows.
+- **Kestra**: Orchestration of ELT workflows.
 
 ## Data Flow
 1. **CSV to JSON & MongoDB**
@@ -75,4 +75,3 @@ Ensure you have the following installed:
 
 ---
 For any issues or improvements, feel free to contribute! 🚀
-
