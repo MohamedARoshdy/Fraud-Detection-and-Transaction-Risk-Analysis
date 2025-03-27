@@ -6,7 +6,7 @@ This project implements a **fraud detection and transaction risk analysis pipeli
 ## Data Pipeline Architecture
 Below is the architecture of the ELT pipeline:
 
-![ELT Pipeline](Fraud-Detection-and-Transaction-Risk-Analysis.jpg)
+![ELT Pipeline](https://raw.githubusercontent.com/MohamedARoshdy/Fraud-Detection-and-Transaction-Risk-Analysis/main/Fraud-Detection-and-Transaction-Risk-Analysis.jpg)
 
 ## Technologies Used
 - **Python & Pandas**: Data processing and transformation.
