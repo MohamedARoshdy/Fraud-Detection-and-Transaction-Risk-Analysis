@@ -5,7 +5,6 @@ This project implements a **fraud detection and transaction risk analysis pipeli
 
 ## Data Pipeline Architecture
 Below is the architecture of the ELT pipeline:
-
 ![ELT Pipeline](Fraud-Detection-and-Transaction-Risk-Analysis.jpg)
 
 ## Technologies Used
@@ -32,6 +31,8 @@ Below is the architecture of the ELT pipeline:
 
 ## Data Model
 The project follows a **Star Schema** with the following tables:
+![Star Schema](star_schema_pure.png)
+
 
 ### Dimension Tables
 - **Dim_Time**: Contains date and time-related attributes.
